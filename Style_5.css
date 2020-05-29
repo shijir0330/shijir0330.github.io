@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Raleway:wght@100;400&family=Roboto+Slab:wght@100&display=swap');
+
+.header {
+	background-image: url("back.jpg");
+	text-align:  center;
+	color: white;
+	padding: 80px 0;
+	width: 600px;
+}
+h1 {
+	text-transform: uppercase;
+	font-family: "Gravitas One";
+}
+#slogan{
+	font-size: 30;
+	font-family: "Roboto Slab";
+}
+.start {
+	border: none;
+	background-color: #eb447c;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-transform: uppercase;
+	font-size: 15px;
+	color: white;
+}
+.imagetd {
+	text-align: center;
+	padding: 30 0px;
+}
+
+table {
+	table-layout: fixed;
+}
+
+.contentpic {
+	margin-right: 20px;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+#firstbar { 
+	text-align: right;
+	padding: 30px;
+	width: 350px;
+}
+#secondbar {
+	padding: 30px;
+}
+
+#title {
+	font-size: 30;
+	font-family: "Raleway";
+}
+.content {
+	color: #8f8b8d;
+	font-family: "Raleway", Thin-100;
+}
+
+.footer {
+	background-color: #676e6e;
+	padding: 10px 15px;
+}
+
+.footertext {
+	color: #bd2d7f;
+	text-align: right;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 3</title>
+</head>
+<body>
+	<form action="formprocessor.html" method="post">
+		<table>
+			<tr>
+				<td colspan="2" bgcolor="orange"><p>&nbsp;Sign Up</p></td>
+			</tr>
+			<tr height="30" style="background-color: blue;color: white;border-color: white">
+				<td align="right" width="100">First Name&nbsp;</td>
+				<td>&nbsp;<input type="text" name="First Name" placeholder="Enter First Name"></td>
+			</tr>
+			<tr height="30" style="background-color: blue;color: white;border-color: white">
+				<td align="right">Last Name&nbsp;</td>
+				<td>&nbsp;<input type="text" name="Last Name" placeholder="Enter Last Name"></td>
+			</tr>
+			<tr height="30" style="background-color: blue;color: white;border-color: white">
+				<td align="right">Password&nbsp;</td>
+				<td>&nbsp;<input type="Password" name="Password" placeholder="Your Password"></td>
+			</tr>
+			<tr height="30" style="background-color: blue;color: white;border-color: white">
+				<td align="right">Date of Birth&nbsp;</td>
+				<td>&nbsp;<input type="text" name="DOB" placeholder="mm/dd/yyyy"></td>
+			</tr>
+			<tr height="30" style="background-color: blue;color: white;border-color: white">
+				<td align="right">Gender&nbsp;</td>
+				<td>&nbsp;<input type="radio" id="male" name="gender" value="male"><label for="male">Male</label>
+				<input type="radio" id="female" name="gender" value="female"><label for="male">Male</label></td>
+			</tr>
+			<tr height="30" style="background-color: blue;color: white;border-color: white">
+				<td align="right">Country&nbsp;</td>
+				<td>&nbsp;
+					<select>
+						<option value="mongolia">Mongolia</option>
+						<option value="china">China</option>
+						<option value="korea">Korea</option>
+					</select>
+				</td>
+			</tr>
+			<tr height="65" style="background-color: blue;color: white;border-color: white">
+				<td align="right">Comment&nbsp;</td>
+				<td width="400">&nbsp;<textarea rows="3" cols="40" placeholder="Type your comment here..."></textarea></td>
+			</tr>
+			<tr height="35" align="center" style="background-color: purple;color: white;border-color: white">
+				<td colspan="2"><input type="checkbox" id="term" name="term" value="term"><label for="term">I agree to the Term of Use</label></td>
+			</tr>
+			<tr height="35" align="right" style="background-color: orange;color: white;border-color: white">
+				<td colspan="2">
+					<input style="background-color: green;color: white;border-color: white" type="submit" value="Submit">
+					<input style="background-color: red;color: white;border-color: white" type="reset" value="Cancel">&nbsp;
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

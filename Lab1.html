@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 15</title>
+	<style type="text/css">
+		body {
+			background-color: #e1f1fc;
+		}
+		.body {
+			max-width: 600px;
+			margin: auto;
+			background-color: #fff;
+			padding: 10;
+		}
+		.information {
+			display: flex;
+			background-color: #297fba;
+		}
+		.photo {
+			margin: 20px;
+		}
+		.table {
+			margin: 40px;
+			font-size: 150%;
+			text-align: left;
+		}
+		h2 {
+			padding: 20px;
+			background-color: #b6d9f0
+		}
+		.hobby {
+			display: flex;
+		}
+		.hobby img {
+			width: 120px;
+			height: 150px;
+		}
+		.hobby p {
+			padding: 20px;
+			width: 400px;
+		}
+		.hobby a {
+			padding: 20px;
+			text-align: right;
+			float: right;
+		}
+		.slider {
+			overflow: hidden;
+			height: 300px;
+		}
+
+		.slider figure div {
+			float: left;
+			width: 20%;
+		}
+
+		.slider figure img {
+			width: 100%;
+			float left: 
+		}
+
+		.slider figure {
+			position: relative;
+			width: 500%;
+			margin: 0px;
+			left: 0;
+			animation-duration: 20s;
+			animation-name: movement;
+			animation-iteration-count: infinite;
+		}
+		@keyframes movement{
+			0% { left: 0%; }
+			10% { left: 0%; }
+			20% { left: -100%; }
+			30% { left: -100%; }
+			40% { left: -200%; }
+			50% { left: -200%; }
+			60% { left: -300%; }
+			70% { left: -300%; }
+			80% { left: -400%; }
+			90% { left: -400%; }
+			100% { left: 0%; }
+		}
+
+		.video {
+			display:  flex;
+		}
+		iframe {
+			height: 200px;
+			width: 300px;
+		}
+	</style>
+</head> 
+<body>
+	<div class="body">
+		<div class="information">
+			<div class="photo"><img src="photo.png" width="93px" height="129px"></div>
+			<div class="table">
+				<table>
+					<tr>
+						<th class="head">Нэр:</th>
+						<td>Т. Шжир</td>
+					</tr>
+					<tr>
+						<th class="head">Мэргэжил:</th>
+						<td>Прогрхамм Хангамж</td>
+					</tr>
+					<tr>
+						<th class="head">SISI id:</th>
+						<td>16b1sob0600</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<h2>Сонирхол, хийх дуртай зүйс</h2>
+		<div class="hobby">
+			<img src="swimming.png" width="100px" height="100px">
+			<img src="Dota2_logo.jpg" width="100px" height="100px">
+			<p>Усанд сэлэх болон видео тоглоом тоглох дуртай. Тоглодог видео тоглоомын нэр нь DOTA 2.<br><a href="dota2_more.html">Дэлгэрэнгүй</a></p>		
+		</div>
+		<div class="websites">
+		<h2>Хамгийн их ордог 5 сайтын жагсаалт</h2>
+			<ol>
+				<li>Youtube</li>
+				<li>Facebook</li>
+				<li>Google</li>
+				<li>SiSi</li>
+				<li>Gmail</li>
+			</ol>
+		</div>
+		<h2>Зургын цомог</h2>
+		<div class="Album">
+			<div class="slider">
+			<figure>
+				<div class="slide"><a href="https://en.wikipedia.org/wiki/Spring_(season)"><img src="spring.jpg"></a></div>
+				<div class="slide"><a href="https://en.wikipedia.org/wiki/Summer"><img src="summer.jpg"></a></div>
+				<div class="slide"><a href="https://en.wikipedia.org/wiki/Autumn"><img src="fall.jpg"></a></div>
+				<div class="slide"><a href="https://en.wikipedia.org/wiki/Winter"><img src="winter.jpg"></a></div>
+				<div class="slide"><a href="https://en.wikipedia.org/wiki/Water"><img src="water.jpg"></a></div>
+			</figure>
+			</div>
+		</div>
+		<h2>Бичлэг</h2>
+		<div class="video">
+			<iframe width="300" height="200" src="https://www.youtube.com/embed/IdssuxDdqKk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe width="300" height="200" src="https://www.youtube.com/embed/iwd8N6K-sLk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		<ol>
+			<li><a href="https://www.youtube.com/watch?v=IdssuxDdqKk">EXO 엑소 'Ko Ko Bop' MV</a></li>
+			<li><a href="https://www.youtube.com/watch?v=iwd8N6K-sLk">EXO 엑소 'Tempo' MV</a></li>
+		</ol>
+	</div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Heebo|Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+#header {
+	background-color: orange;
+	padding: 0 20px;
+	border-radius: 20px;
+	width: auto;
+}
+td {
+	border: 5px solid white;
+}
+.bigtext {
+	font-family: "Dosis";
+	font-size: 40px;
+	color: white;
+}
+.slogan {
+	font-family: "Heebo";
+	font-weight: normal;
+	text-transform: uppercase; 
+	font-size: 15px;
+}
+.nav {
+	padding: 15px 20px;
+}
+.navtext {
+	margin-right: 20px;
+	font-family: "Inter";
+}
+#firstsidebar {
+	width: 130px;
+	background-color:  rgb(3,152,252);
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-right: 10px;
+	padding-left: 15px;
+	font-family: "Muli";
+}
+
+#secondsidebar {
+	background-color: #03fcf8;
+	height: 150px;
+	color: white;
+	font-family: "Muli";
+}
+
+.main {
+	width: 400px;
+	background-color: rgb(252,86,3);
+	padding: 8px;
+	font-family: "Heebo";
+	font-size: 25px;
+	color: white;
+	text-transform: uppercase;
+}
+.subtext {
+	font-style: italic;
+	padding: 3px;
+	font-family: "Inter";
+}
+tr td {
+	padding: 0 3px;
+	font-family: "Roboto Slab";
+}
+
+.footer {
+	background-color: #a3a29d;
+	padding: -10px 0;
+}
+.footertext {
+	text-align: right;
+	padding-right:  10px;
+	font-family: "Inter";
+}
